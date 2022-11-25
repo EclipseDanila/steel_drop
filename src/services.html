@@ -1,0 +1,46 @@
+@@include('parts/header.html', {
+    'title': 'Главная'
+})
+
+<main class="main">
+    <container class="sheet">
+            <div class="sheet__wrapper wrapper">
+
+                <div class="intro__catalog">
+                    <div class="intro__catalog-title">Каталог:</div>
+                    <div class="intro__catalog_box">
+                        <div class="intro__catalog_box-item">Складная бытовка</div>
+                        <div class="intro__catalog_box-item">Фермы</div>
+                        <div class="intro__catalog_box-item">Каркасы зданий</div>
+                        <div class="intro__catalog_box-item">Колонны</div>
+                        <div class="intro__catalog_box-item">Емкостное нестандартное <br> оборудование</div>
+                        <div class="intro__catalog_box-item">Ложементы</div>
+                    </div>
+                </div>
+                
+                <div class="sheet__content">
+                    <div class="sheet__nav">
+                        <p class="sheet__nav-item basic__text">Главная</p>
+                        <p class="sheet__nav-item basic__text" id="sheet__nav-item-blue">/</p>
+                        <a href="#" class="sheet__nav-item basic__text" id="sheet__nav-item-link">Основное меню</a>
+                    </div>
+                    <div class="sheet__content-title title__text">Лист горячекатаный</div>
+                    <div class="sheet__content-subtitle">
+                        Горячекатаный лист получается методом горячей прокатки стали на станке и последующей обработки под воздействием высоких температур. Применяется в промышленности и строительстве, в производстве металлоконструкций любой конфигурации.
+                        <br><br>
+                        Компания «СТС-Металл» поставляет горячекатаный лист по всей России.
+                        <br><br>
+                        Минимальная партия заказа – 100 кг.
+                        <br><br>
+                        Возможен самовывоз со склада в г. Лыткарино (Московская область).
+                    </div>
+                    <form action="" class="sheet__form">
+                        <input type="tel" class="sheet__form-input basic__text input__telephone" placeholder="Введите номер вашего телефона">
+                        <button class="sheet__form-btn basic__text">Отправить</button>
+                    </form>
+                </div>
+            </div>
+    </container>
+</main>
+
+@@include('parts/footer.html')
