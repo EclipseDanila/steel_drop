@@ -11,7 +11,6 @@ function sliderFunction(param) {
     for (let i = 0; i < slides.length; i++) {
         let element = slides[i];
         let position = element.getAttribute('slider-position')
-        console.log(i + ' - ' + position);
         if(param) {
             if(position == 0) {
                 position = slides.length - 1
